@@ -1,0 +1,42 @@
+### idle: sleep 20
+
+Time:               20.00 s
+System (CPU):       18.69 J    0.93 W
+System (GPU):        0.43 J    0.02 W
+Program only:        0.00 J    0.00 W
+
+### main_O0
+Matrix size: 128x128, rounds: 2000
+Trace sum: -3221.4, last det: 1.37744e+154
+
+Time:               39.80 s
+System (CPU):      232.61 J    5.85 W
+System (GPU):        0.84 J    0.02 W
+Program only:      199.63 J    5.02 W
+
+### main_O3 (run 1)
+Matrix size: 128x128, rounds: 2000
+Trace sum: -3221.4, last det: 1.37744e+154
+
+Time:                1.06 s
+System (CPU):        6.70 J    6.33 W
+System (GPU):        0.02 J    0.02 W
+Program only:        5.70 J    5.39 W
+
+### main_O3 (run 2)
+Matrix size: 128x128, rounds: 2000
+Trace sum: -3221.4, last det: 1.37744e+154
+
+Time:                1.06 s
+System (CPU):        6.64 J    6.28 W
+System (GPU):        0.02 J    0.02 W
+Program only:        5.70 J    5.39 W
+
+### main_O3 (run 3)
+Matrix size: 128x128, rounds: 2000
+Trace sum: -3221.4, last det: 1.37744e+154
+
+Time:                1.06 s
+System (CPU):        6.55 J    6.19 W
+System (GPU):        0.03 J    0.02 W
+Program only:        5.69 J    5.37 W
